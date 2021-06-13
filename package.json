@@ -1,0 +1,27 @@
+{
+  "name": "transform-excel-data",
+  "version": "1.0.0",
+  "description": "使用nodejs读取Excel并转换数据格式存入数据库",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liujunzheng/node-transform-excel-data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liujunzheng/node-transform-excel-data/issues"
+  },
+  "homepage": "https://github.com/liujunzheng/node-transform-excel-data#readme",
+  "dependencies": {
+    "@types/node": "^15.12.2",
+    "@types/node-xlsx": "^0.15.1",
+    "node-xlsx": "^0.16.1",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.3.2"
+  }
+}
